@@ -1,0 +1,10 @@
+server:
+  port: 8099
+spring:
+  data:
+    mongodb:
+      database: blacars
+  mvc:
+    view:
+      prefix: /WEB-INF/jsp/
+      suffix: .jsp
